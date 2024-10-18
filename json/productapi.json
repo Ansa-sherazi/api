@@ -1,0 +1,30 @@
+[
+   {
+        "brand": "Dell",
+        "model": "Inspiron 15",
+        "system": "Windows",
+        "release": "10",
+        "version": "10.0.19042",
+        "machine": "AMD64",
+        "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel"
+     },
+
+     {
+        "brand": "Apple",
+        "model": "MacBook Pro",
+        "system": "macOS",
+        "release": "Big Sur",
+        "version": "11.2",
+        "machine": "x86_64",
+        "processor": "Intel Core i7"
+    },
+{
+    "brand": "HP",
+    "model": "Pavilion 15",
+    "system": "Windows",
+    "release": "10",
+    "version": "10.0.19043",
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 158 Stepping 10, GenuineIntel"
+}
+]

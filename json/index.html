@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let flower={
+            "name":"rose",
+            "color":"red",
+            "price":"100pkr"
+        }
+        // localStorage.setItem("first",flower)
+        let first=JSON.stringify(flower)
+        localStorage.setItem("xyz",first)
+
+        let second=JSON.parse(localStorage.getItem("xyz"));
+        console.log(typeof(second));
+        console.log(flower)
+
+
+
+
+
+
+//         let first = JSON.parse(flower);
+// localStorage.getItem("xyz", JSON.stringify(first));
+
+// let storedValue = JSON.parse(localStorage.getItem("xyz"));
+
+
+
+
+    </script>
+</body>
+</html>
